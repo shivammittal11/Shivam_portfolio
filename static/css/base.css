@@ -1,0 +1,18 @@
+.header{
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.footer{
+    height: 50px;
+    background-color: black;
+    bottom: 0!important;
+}
+.dropdown, .dropdown-toggle{
+    background-color: transparent;
+    color: #007bff;
+}
+.gif-image{
+    float: right!important;
+}
