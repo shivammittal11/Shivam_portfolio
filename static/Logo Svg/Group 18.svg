@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 241">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(-550 -1280)">
+    <rect id="Rectangle_559" data-name="Rectangle 559" class="cls-1" width="241" height="241" transform="translate(550 1280)"/>
+    <g id="Group_10" data-name="Group 10" transform="translate(255.139 -437)">
+      <rect id="Rectangle_555" data-name="Rectangle 555" width="90.251" height="18.948" rx="9.474" transform="translate(514.954 1792.499) rotate(90)"/>
+      <rect id="Rectangle_551" data-name="Rectangle 551" width="54.35" height="18.948" rx="9.474" transform="translate(371.1 1883) rotate(180)"/>
+      <rect id="Rectangle_556" data-name="Rectangle 556" width="54.35" height="18.948" rx="9.474" transform="translate(407.001 1811.198) rotate(180)"/>
+      <rect id="Rectangle_557" data-name="Rectangle 557" width="54.35" height="18.948" rx="9.474" transform="translate(460.105 1846.85) rotate(-90)"/>
+      <rect id="Rectangle_552" data-name="Rectangle 552" width="90.251" height="18.948" rx="9.474" transform="translate(407.001 1847.099) rotate(180)"/>
+      <rect id="Rectangle_553" data-name="Rectangle 553" width="90.251" height="18.948" rx="9.474" transform="translate(443.152 1792.499) rotate(90)"/>
+    </g>
+  </g>
+</svg>

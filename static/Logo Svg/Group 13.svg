@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 241">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #0900ff;
+      }
+
+      .cls-4 {
+        fill: blue;
+      }
+    </style>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(-167 -1627)">
+    <rect id="Rectangle_561" data-name="Rectangle 561" class="cls-1" width="241" height="241" transform="translate(167 1627)"/>
+    <g id="Group_8" data-name="Group 8" transform="translate(-57 290)">
+      <rect id="Rectangle_530" data-name="Rectangle 530" class="cls-2" width="90.5" height="19" rx="9.5" transform="translate(443.5 1435.5) rotate(90)"/>
+      <rect id="Rectangle_532" data-name="Rectangle 532" class="cls-2" width="90.5" height="19" rx="9.5" transform="translate(335.25 1526.25) rotate(180)"/>
+      <rect id="Rectangle_531" data-name="Rectangle 531" class="cls-3" width="90.5" height="19" rx="9.5" transform="translate(407.5 1435.5) rotate(90)"/>
+      <rect id="Rectangle_533" data-name="Rectangle 533" class="cls-4" width="90.5" height="19" rx="9.5" transform="translate(335.25 1490.25) rotate(180)"/>
+      <rect id="Rectangle_534" data-name="Rectangle 534" class="cls-2" width="90.5" height="19" rx="9.5" transform="translate(371.5 1435.5) rotate(90)"/>
+      <rect id="Rectangle_535" data-name="Rectangle 535" class="cls-2" width="90.5" height="19" rx="9.5" transform="translate(335.25 1454.25) rotate(180)"/>
+      <rect id="Rectangle_536" data-name="Rectangle 536" class="cls-2" width="54.5" height="19" rx="9.5" transform="translate(244.5 1490) rotate(-90)"/>
+      <rect id="Rectangle_537" data-name="Rectangle 537" class="cls-2" width="54.5" height="19" rx="9.5" transform="translate(316.5 1526) rotate(-90)"/>
+      <rect id="Rectangle_538" data-name="Rectangle 538" class="cls-2" width="54.5" height="19" rx="9.5" transform="translate(407.25 1454.25) rotate(180)"/>
+      <rect id="Rectangle_539" data-name="Rectangle 539" class="cls-2" width="54.5" height="19" rx="9.5" transform="translate(443.25 1454.25) rotate(180)"/>
+    </g>
+  </g>
+</svg>

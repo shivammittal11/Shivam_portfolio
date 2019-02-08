@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 241">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #0900ff;
+      }
+
+      .cls-3 {
+        fill: blue;
+      }
+    </style>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(-167 -1280)">
+    <rect id="Rectangle_558" data-name="Rectangle 558" class="cls-1" width="241" height="241" transform="translate(167 1280)"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(-57 143)">
+      <rect id="Rectangle_524" data-name="Rectangle 524" width="90.5" height="19" rx="9.5" transform="translate(443.5 1212.5) rotate(90)"/>
+      <rect id="Rectangle_527" data-name="Rectangle 527" width="90.5" height="19" rx="9.5" transform="translate(335.25 1303.25) rotate(180)"/>
+      <rect id="Rectangle_525" data-name="Rectangle 525" class="cls-2" width="90.5" height="19" rx="9.5" transform="translate(407.5 1212.5) rotate(90)"/>
+      <rect id="Rectangle_528" data-name="Rectangle 528" class="cls-3" width="90.5" height="19" rx="9.5" transform="translate(335.25 1267.25) rotate(180)"/>
+      <rect id="Rectangle_526" data-name="Rectangle 526" width="90.5" height="19" rx="9.5" transform="translate(371.5 1212.5) rotate(90)"/>
+      <rect id="Rectangle_529" data-name="Rectangle 529" width="90.5" height="19" rx="9.5" transform="translate(335.25 1231.25) rotate(180)"/>
+    </g>
+  </g>
+</svg>

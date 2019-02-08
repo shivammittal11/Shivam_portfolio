@@ -1,0 +1,243 @@
+/*.header{*/
+    /*height: 60px;*/
+    /*background-color: white;*/
+    /*border-bottom: 1px solid lightgray;*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*top:0;*/
+    /*padding-top:10px;*/
+    /*z-index: 100000;*/
+/*}*/
+
+.image-text-head{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    position: absolute;
+    top:33%;
+    left: 30%;
+    text-align: center;
+    font-family: "Abril Fatface";
+}
+
+.nav-link{
+color: white;
+    font-family: "Abril Fatface";
+
+}
+
+.image-text-nav{
+    color: white!important;
+    margin: 0;
+    font-size: 25px;
+    position: absolute;
+    top:3%;
+    right: 2%;
+}
+
+.parent-content{
+    display: flex;
+}
+
+
+.parent-content-left-div{
+    width: 50%;
+    text-align: left;
+
+}
+
+.parent-content-right-div{
+    width: 50%;
+    text-align: right;
+}
+
+.span-text{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid blue;
+    padding: 10px;
+    color: blue;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: "Abril Fatface";
+}
+
+.container{
+    text-align: center;
+}
+
+.text-color{
+    color: blue;
+    font-family: "Abril Fatface";
+}
+
+.project-image{
+    height: 150px;
+
+}
+.user-image{
+    height: 300px;
+}
+
+.heading{
+    padding: 70px;
+    text-decoration: underline;
+    font-family: "Abril Fatface";
+}
+
+
+.footer{
+    height: 100px;
+    background-color: blue;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.social-icons > span > a> img{
+    height: 40px!important;
+    margin-left: 20px;
+}
+
+.parent-content{
+    margin-top: 30px;
+    padding-left:50px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+
+.logo-img{
+    position: absolute;
+    left: 10%;
+    top: 1%;
+    z-index: 100000;
+    height: 90px;
+}
+
+.btn-text{
+    padding: 15px;
+    border: 5px solid blue;
+    color: blue;
+    background-color: white;
+    font-size: 24px;
+    text-align: center;
+    text-decoration-style: double;
+
+}
+
+.btn{
+    background-color: blue;
+    font-family: "Abril Fatface";
+}
+.content2{
+    background-color: #E7E7E7;
+}
+
+.container-content2{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-title{
+    color: blue;
+    font-family: "Abril Fatface";
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+/*.parent-content-right-div{*/
+    /*margin-left: 70px;*/
+/*}*/
+
+.blue-text{
+    color: blue;
+    font-family: "Abril Fatface";
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.container-content3{
+    padding: 50px;
+    text-align: center;
+}
+
+textarea.form-control{
+    height: 150px;
+}
+.fas{
+    font-size: 48px;
+    color: white;
+}
+
+.image-text-head2{
+    position: absolute;
+    bottom: 2%;
+    left:48%;
+}
+
+.gif-image{
+    height: 100vh;
+    width: 100%;
+}
+
+.gif-image-parent{position: relative}
+
+.right-div3{
+    padding-left: 100px;
+    /*padding-top: 20px;*/
+    padding-right: 50px;
+    border-left: 2px solid blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-img{
+        height: 65px;
+        top:1%;
+        left:0;
+    }
+
+    .right-div3{
+    padding: 10px;
+    border-left: none;
+}
+
+    .image-text-nav{
+        top:3%;
+        right: 0;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .image-text-head{
+        left:0;
+        top:20%;
+        font-size: 57px;
+    }
+
+    .parent-content{
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 0;
+        display: block;
+    }
+
+    .parent-content-left-div{
+        text-align: center;
+        width: 100%;
+    }
+
+    .parent-content-right-div{
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .project-image{
+        height: 100px;
+    }
+}

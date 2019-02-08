@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    {% block meta %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% endblock %}
+    {% block css %}
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/static/css/index.css" type="text/css">
+    {% endblock %}
+    {% block js %}
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        {#        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>#}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/js/index.js?={{ timestamp }}"></script>
+    {% endblock %}
+    <meta charset="UTF-8">
+    <title>Shivam Portfolio</title>
+</head>
+<body>
+
+{#<div class="header">#}
+{#    <div class="container">#}
+{#        <div class="container-content">#}
+{##}
+{#        </div>#}
+{#    </div>#}
+{#</div>#}
+
+<div class="gif-image-parent">
+    <!--{#    <div class="container-content-middle">#}-->
+    <!--{#        <button class="btn blue center">GET STARTED</button>#}-->
+    <!--{#    </div>#}-->
+    <img class="gif-image" src="/static/Background%20image.jpg">
+{#    <div class="logo">#}
+        <img class="logo-img" src="/static/Logo%20Svg/Group%2011.svg">
+{#    </div>#}
+    <div class="image-text-nav">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" id="home_page" href="#" onclick="home()">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id= "about_us_page" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="project_page" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact_us_page" href="#">CONTACT</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="image-text-head">
+        <p class="margin-0">Hello, I'm <b>Shivam Mittal</b></p>
+        <p class="margin-0">I'm a Full-Stack Developer</p>
+        <a class="btn-text" href="#!">View my work here</a>
+
+    </div>
+    {#    <source src="/static/img/Screenrecorder-2017-12-01-17-59-31-853.mp4" type='video/mp4'>#}
+    <!--<video src="/static/img/Screenrecorder-2017-12-01-17-59-31-853.mp4"></video>-->
+<div class="image-text-head2">
+    <i class='fas fa-angle-double-down'></i>
+</div>
+
+</div>
+
+<div class="container content1">
+    <div class="container-content1">
+        <h1 class="heading">ABOUT</h1>
+        <div class="parent-content">
+            <div class="parent-content-left-div">
+                <img class="user-image" src="{{ user_image }}">
+{#                <h3>Full Stack Python Developer</h3>#}
+            </div>
+            <div class="parent-content-right-div">
+            <h5>I'm a web- developer from India, </h5>
+                <h5>I enjoy building everything from simple and clean </h5>
+                    <h5>websites to fully functional web applications.</h5>
+                {% for skill in skill_list %}
+                    <div class="span-text">
+                        <span class="">{{ skill.name }}</span>
+                    </div>
+
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="content2">
+    <div class="container container-content2">
+        <h1 class="heading">PROJECTS</h1>
+        {% for project in project_list %}
+            {% if project.odd %}
+            <div class="parent-content">
+                <div class="parent-content-left-div">
+                    <img class="project-image" src="{{ project.project_cover_image }}">
+                </div>
+                <div class="parent-content-right-div">
+                    <h3 class="card-title">{{ project.project_name }}</h3>
+                    <p class="card-text">{{ project.project_title }}</p>
+                    <p class="card-text">{{ project.project_description }}</p>
+                </div>
+            </div>
+            {% else %}
+            <div class="parent-content">
+                <div class="parent-content-left-div">
+                    <h3 class="card-title">{{ project.project_name }}</h3>
+                    <p class="card-text">{{ project.project_title }}</p>
+                    <p class="card-text">{{ project.project_description }}</p>
+
+                </div>
+                <div class="parent-content-right-div">
+                    <img class="project-image" src="{{ project.project_cover_image }}">
+                </div>
+
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<div class="content3">
+    <div class="container-content3">
+        <h1 class="heading">CONTACT</h1>
+        <div class="parent-content">
+            <div class="parent-content-left-div">
+                <h3 class="blue-text">Contact  me directly or drop</h3><h3 class="blue-text"> me a message.</h3>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h4 class="blue-text"><b>SHIVAM MITTAL</b></h4>
+                <p class="margin-0 card-text"><span>Email:</span> <span> Shivam.mittal38@gmail.com</span></p>
+                <p class="margin-0 card-text"><span>Mobile:</span> <span> 9759203030</span></p>
+                <p class="margin-0 card-text"><span>Address:</span> <span> 106/ A , Shivpuri, Muzaffarnagar -251001</span></p>
+            </div>
+            <div class="parent-content-right-div right-div3">
+                <div class="card-parent-div">
+                    <div class="form-group row">
+                        <label for="name"></label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email"></label>
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="contact_no"></label>
+                        <div class="col-sm-12">
+                            <input type="number" class="form-control" id="contact_no" placeholder="Contact Number(Optional)">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="message"></label>
+                        <div class="col-sm-12">
+                            <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <a href="#!" class="col-sm-12 btn-primary btn" onclick="contact_us()">SEND</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--{#{% block body %}#}-->
+<!--{#{% endblock %}#}-->
+<div class="footer">
+    <div class="social-icons">
+        <span><a href="#"><img src="/media/icons/facebook.png"></a></span>
+        <span><a href="#"><img src="/media/icons/google-plus.png"></a></span>
+        <span><a href="#"><img src="/media/icons/instagram.png"></a></span>
+        <span><a href="#"><img src="/media/icons/linkedin.png"></a></span>
+    </div>
+</div>
+</body>
+</html>
