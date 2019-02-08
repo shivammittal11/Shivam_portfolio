@@ -18,11 +18,12 @@ from django.conf.urls import url
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
-from shivam_resume.views import home_page
+from shivam_resume.views import home_page, contact_us
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', home_page),
+    url(r'^contact_us/$', contact_us),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

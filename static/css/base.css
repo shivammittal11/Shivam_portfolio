@@ -1,18 +1,191 @@
 .header{
-    height: 50px;
+    height: 60px;
     background-color: white;
     border-bottom: 1px solid lightgray;
+    position: fixed;
+    width: 100%;
+    top:0;
+    padding-top:10px;
+    z-index: 100000;
+}
+
+.image-text-head{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    position: absolute;
+    top:33%;
+    left: 30%;
+}
+
+.gif-image-parent{
+    margin-top: 70px;
 }
 
 .footer{
-    height: 50px;
-    background-color: black;
-    bottom: 0!important;
+    height: 100px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
 }
 .dropdown, .dropdown-toggle{
     background-color: transparent;
     color: #007bff;
 }
 .gif-image{
-    float: right!important;
+    width: 100% !important;
+    border-radius:20px;
+    /*float: right!important;*/
+}
+
+.container-content1{
+    height: inherit;
+    background-color: white;
+    margin-top: 50px;
+     border-radius:20px;
+    text-align: center;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.container-content2{
+    height: inherit;
+    background-color: white;
+    margin-top: 50px;
+     border-radius:20px;
+    text-align: center;
+}
+
+.container-content3{
+    height: inherit;
+    background-color: lightgray;
+    margin-top: 50px;
+     border-radius:20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-middle{
+
+}
+
+.card-radius{
+    border-radius: 10px;
+    padding: 10px;
+    width: Calc(100%/4)!important;
+    display: inline-block;
+    height: 300px;
+    margin: 20px;
+}
+
+.card-img-top{
+    height: 50% !important;
+}
+
+.user-image{
+    border-radius: 70px;
+    height: 200px;
+}
+
+.add-margin-top{
+    margin-top: 120px;
+}
+
+.container-content-middle{
+
+}
+
+.parent-content{
+    display: flex;
+}
+
+.progress{
+    width: 50%;
+    float: right;
+    height: 25px;
+}
+
+.span-text{vertical-align: middle}
+
+.parent-content-left-div{
+    width: 50%;
+}
+
+.parent-content-right-div{
+    width: 50%;
+}
+
+.card-text > input{
+    width: 40%;
+}
+
+.card-text > textarea{
+    width: 38%;
+}
+.parent-content-left-div{
+    padding: 70px;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.social-icons > span > a> img{
+    height: 40px!important;
+    margin-left: 20px;
+}
+
+textarea.form-control{
+    height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-text-head{
+        font-size: 18px;
+        left: 16%;
+        top:22%;
+    }
+    .parent-content-left-div{
+        padding: 0;
+        width: 100%;
+    }
+
+    .parent-content-right-div{
+        width: 100%;
+        text-align: left;
+        margin-top: 30px;
+
+    }
+
+    .container-content1{
+        margin-top: 10px;
+    }
+
+    .parent-content{
+       display: block;
+    }
+
+    .card-parent-div > .card-radius{
+        width: 100%!important;
+    }
+    .justify-content-end{
+        justify-content: inherit!important;
+    }
+
+    .card-radius{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .nav-link{
+        padding: .4rem;
+    }
+
 }
