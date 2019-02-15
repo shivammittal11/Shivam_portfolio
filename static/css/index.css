@@ -195,6 +195,54 @@ textarea.form-control{
     border-left: 2px solid blue;
 }
 
+@media only screen and (max-width: 1000px) {
+    .logo-img{
+        height: 65px;
+        top:1%;
+        left:0;
+    }
+
+    .right-div3{
+    padding: 10px;
+    border-left: none;
+}
+
+    .image-text-nav{
+        top:3%;
+        right: 0;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .image-text-head{
+        left:12%;
+        top:30%;
+        font-size: 57px;
+    }
+
+    .parent-content{
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 0;
+        display: block;
+    }
+
+    .parent-content-left-div{
+        text-align: center;
+        width: 100%;
+    }
+
+    .parent-content-right-div{
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .project-image{
+        height: 100px;
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     .logo-img{
         height: 65px;
