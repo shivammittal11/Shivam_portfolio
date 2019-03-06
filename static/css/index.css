@@ -265,7 +265,7 @@ textarea.form-control{
     .image-text-head{
         left:0;
         top:20%;
-        font-size: 57px;
+        font-size:40px;
     }
 
     .parent-content{
@@ -288,4 +288,16 @@ textarea.form-control{
     .project-image{
         height: 100px;
     }
+
+    .span-text{
+        width: 40%;
+    }
+    .container-content3{
+        padding: 20px;
+    }
+
+    .nav-link{
+        padding: 5px;
+    }
+
 }
