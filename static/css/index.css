@@ -301,3 +301,16 @@ textarea.form-control{
     }
 
 }
+
+.ml2 {
+    font-weight: bold;
+    font-size: 1.3em;
+    color:black;!important;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
