@@ -82,6 +82,19 @@ DATABASES = {
 }
 
 
+# DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.mysql',
+#             'NAME': 'Soumya420$storypaper',
+#             'USER': 'Soumya420',
+#             'PASSWORD': 'Ozotea123!',
+#             'HOST': 'Soumya420.mysql.pythonanywhere-services.com',
+#             # 'PORT': '3306',
+#             # 'TEST_MIRROR': 'default',
+#             # 'OPTIONS': {'init_command': 'SET storage_engine=INNODB'},
+#         }
+# }
+
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
@@ -124,5 +137,5 @@ MEDIA_URL = '/media/'
 #     os.path.join(BASE_DIR, "static"),
 # ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
