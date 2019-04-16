@@ -53,6 +53,16 @@ $(document).ready(function () {
         'slow');
     $('.content2').addClass('add-margin-top');
 });
+   $("#view_my_work_btn").click(function() {
+        $('.content1').removeClass('add-margin-top');
+       $('.content3').removeClass('add-margin-top');
+    $('html,body').animate({
+        scrollTop: $(".content2").offset().top},
+        'slow');
+    $('.content2').addClass('add-margin-top');
+});
+
+
 
    $("#contact_us_page").click(function() {
         $('.content1').removeClass('add-margin-top');
