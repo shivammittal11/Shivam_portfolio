@@ -18,7 +18,7 @@ from django.conf.urls import url
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
-from shivam_resume.views import home_page, contact_us, \
+from shivam_resume.views import home_page, contact_us
     # get_data, some_text
 
 urlpatterns = [
